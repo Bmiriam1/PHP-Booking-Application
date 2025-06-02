@@ -1,12 +1,12 @@
+# Use the official PHP 8.2 image with Apache
 FROM php:8.2-apache
 
-# Install Composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+# Set working directory
+WORKDIR /var/www/html
 
-# Copy project files
-COPY . /var/www/html/
+# Copy your entire project into the container
+COPY . .
 
-# Install PHP dependencies
-RUN composer install
-
+# Expose the default Apache port
 EXPOSE 80
+
