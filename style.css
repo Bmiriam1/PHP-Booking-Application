@@ -1,0 +1,206 @@
+body {
+    font-family: 'Garamond', 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f4e9;
+    /* Parchment-like background */
+    color: #3a3226;
+    /* Rich brown text */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fffaf0;
+    /* Floral white container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(139, 69, 19, 0.1);
+    /* Sienna shadow */
+    border: 1px solid #d2b48c;
+    /* Tan border */
+}
+
+h1,
+h2 {
+    color: #5d432c;
+    /* Dark brown headers */
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.booking-form {
+    background: #f5e7d6;
+    /* Light tan form background */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #cd853f;
+    /* Peru border */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #654321;
+    /* Dark brown labels */
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #a67c52;
+    /* Light brown border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff8e7;
+    /* Off-white background */
+    color: #4b3621;
+    /* Dark brown text */
+}
+
+button {
+    background-color: #8b4513;
+    /* Saddle brown button */
+    color: #fff8dc;
+    /* Cornsilk text */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a0522d;
+    /* Sienna hover */
+}
+
+.ticket {
+    border: 1px solid #d4a76a;
+    /* Light brown border */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #fff8e7;
+    /* Off-white background */
+    box-shadow: 0 2px 5px rgba(139, 69, 19, 0.1);
+}
+
+.ticket.vvip {
+    border-left: 5px solid #8b0000;
+    /* Dark red */
+    background: #fff0f0;
+}
+
+.ticket.vip {
+    border-left: 5px solid #b8860b;
+    /* Dark goldenrod */
+    background: #fff8e0;
+}
+
+.ticket.general {
+    border-left: 5px solid #556b2f;
+    /* Dark olive green */
+    background: #f5f9f0;
+}
+
+.sales-report {
+    margin-top: 30px;
+    background: #f5e7d6;
+    /* Light tan background */
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #cd853f;
+    /* Peru border */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: 'Times New Roman', serif;
+}
+
+th,
+td {
+    border: 1px solid #d2b48c;
+    /* Tan borders */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #8b4513;
+    /* Saddle brown header */
+    color: #fff8dc;
+    /* Cornsilk text */
+    font-weight: normal;
+}
+
+tr:nth-child(even) {
+    background-color: #f5e7d6;
+    /* Light tan alternating rows */
+}
+
+.error {
+    color: #8b0000;
+    /* Dark red */
+    padding: 10px;
+    background: #ffe8e8;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-left: 4px solid #8b0000;
+}
+
+.success {
+    color: #556b2f;
+    /* Dark olive green */
+    padding: 10px;
+    background: #f0f8e8;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-left: 4px solid #556b2f;
+}
+
+.capacity-meter {
+    height: 20px;
+    background: #e6d5b8;
+    /* Light tan meter background */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #a67c52;
+}
+
+.meter-fill {
+    height: 100%;
+    background: #8b4513;
+    /* Saddle brown meter */
+    width: 0%;
+    transition: width 0.5s;
+}
+
+/* Additional old-school touches */
+.container h1 {
+    border-bottom: 2px solid #d2b48c;
+    /* Tan underline */
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.ticket h3 {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    color: #5d432c;
+    margin-top: 0;
+}
